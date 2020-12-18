@@ -1,2 +1,17 @@
 # victoria_stats
-Python code that plots the Victoria map and statistics
+The code can be seen in 
+The bottom is an image of Victoria with median age plotted.
+![plot](./vic_postcodes/map_of_victoria_300dpi.png)
+
+![plot](./vic_postcodes/map_metro_vic_300dpi.png)
+
+![plot](./vic_postcodes/plot_data.png)
+
+![plot](./vic_postcodes/model.png)
+
+![plot](./vic_postcodes/conditional.png)
+
+![plot](./vic_postcodes/conditional_interval.png)
+
+
+
