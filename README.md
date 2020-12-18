@@ -24,7 +24,7 @@ Below is the model. I assume a bivariate normal and I calculate the covaraince u
 
 ![plot](./vic_postcodes/model.png)
 
-A plot of the conditional distribution calculated from the joint distribution. This is a probability density function.
+The conditional distribution (below) calculated from the joint distribution (above). This is a probability density function.
 
 ![plot](./vic_postcodes/conditional.png)
 
