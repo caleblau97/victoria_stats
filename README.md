@@ -20,7 +20,7 @@ Plot data for median age and median personal income per week.
 
 ![plot](./vic_postcodes/plot_data.png)
 
-Below is the model. I assume a bivariate normal and I calculate the covaraince using the using the inner product of data. This is the joint distribution of N(age,income)
+Below is the model. I assume a bivariate normal and calculate the covaraince using the using the inner product of data. This is the joint distribution of N(age,income)
 
 ![plot](./vic_postcodes/model.png)
 
