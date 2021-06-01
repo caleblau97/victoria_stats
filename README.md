@@ -8,7 +8,7 @@ These results cannot be used to infer general statistics on the trends of age an
 
 Code found in postcodes folder (vic_postcodes/vic_suburb.ipynb)
 
-Below is a visualisation of the median ages throughout victoria. I plot borders for each locality and fill in the area based on the data value associated with its postcode. Grey regions do not have a postcode associated with the locality while red regions represent where no data is present of the postcode. 
+Below is a visualisation of the median ages throughout victoria. I plot borders for each locality and fill in the area based on the data value associated with its postcode. Grey regions do not have a postcode associated with the locality while red regions represent where no data is present for the postcode. 
 ![plot](./vic_postcodes/map_of_victoria_200dpi.png)
 
 Metropolitan Victoria
