@@ -6,7 +6,7 @@ These results do not take into account sampling biases which the census data may
 
 These results cannot be used to infer general statistics on the trends of age and income in Victoria; our results can only be used to interpret how median postcode age and median income interact. This is due to the fact I am calculating these statistics from already averaged statistics, which introduces a bias due to the undersampling of off-median ages (imbalanced data). To combat this I would like to have the full unaveraged data, but this is currently not avaliable. Knowing these caveats I continue with the problem at hand. 
 
-Code found in postcodes folder (vic_suburb.ipynb)
+Code found in postcodes folder (vic_postcodes/vic_suburb.ipynb)
 
 Below is a visualisation of the median ages throughout victoria. I plot borders for each locality and fill in the area based on the data value associated with its postcode. Grey regions do not have a postcode associated with the locality while red regions represent where no data is present of the postcode. 
 ![plot](./vic_postcodes/map_of_victoria_200dpi.png)
@@ -29,7 +29,7 @@ The conditional distribution (below) calculated from the joint distribution (abo
 
 ![plot](./vic_postcodes/conditional.png)
 
-I then calculate the probabilities of age given income by integrating the area between my age range of interest. In the example below age is 30-40 for an income of 900.  
+I then calculate the probabilities of age given income by integrating the area between my age range of interest. I am interested in the probability that given an income of 900 a week what would the probability a person would be 30-40 years old.  
 
 ![plot](./vic_postcodes/conditional_interval.png)
 
